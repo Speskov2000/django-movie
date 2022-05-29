@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-movie"
+version = "0.1.0"
+description = ""
+authors = ["inauris <inauris@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.4"
+django-ckeditor = "^6.4.1"
+Pillow = "^9.1.1"
+
+[tool.poetry.dev-dependencies]
+pynvim = "^0.4.3"
+isort = "^5.10.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
